@@ -1,0 +1,14 @@
+plugins {
+  id 'application'
+  id 'com.github.johnrengelman.shadow' version '7.1.2'
+}
+
+application {
+  mainClassName = "com.machinepublishers.microbuenos.Score"
+}
+
+shadowJar {
+  archiveClassifier.set('exe')
+}
+
+jar.enabled = false

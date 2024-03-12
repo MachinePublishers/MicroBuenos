@@ -1,0 +1,18 @@
+version = '0.0.1-SNAPSHOT'
+group = 'com.machinepublishers.microbuenos'
+
+subprojects {
+  apply plugin: 'java'
+
+  repositories {
+    mavenCentral()
+    maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+    maven { url 'https://oss.sonatype.org/content/repositories/releases/' }
+    maven { url 'https://teavm.org/maven/repository/' }
+  }
+
+  java {
+    sourceCompatibility = JavaVersion.toVersion('17')
+    targetCompatibility = JavaVersion.toVersion('17')
+  }
+}

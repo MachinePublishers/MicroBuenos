@@ -1,0 +1,3 @@
+rootProject.name = "MicroBuenos"
+include 'Client', 'Server', 'Conductor', 'Score'
+

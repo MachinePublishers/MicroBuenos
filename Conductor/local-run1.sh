@@ -1,0 +1,1 @@
+java -Dserver=127.0.0.1 -Dserve=true -Dgroup=0 -Dnets=3 -Dgroups=4 -Dinterval=1000 -jar build/libs/conductor.jar
